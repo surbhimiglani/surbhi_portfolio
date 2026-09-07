@@ -1,0 +1,14 @@
+.experience-row small{display:block;color:var(--muted);font:11px var(--mono);margin-top:9px;line-height:1.5}
+.experience-row{grid-template-columns:1fr 1.2fr}
+.skill-list{display:flex;flex-wrap:wrap;gap:10px 12px;border-top:0}
+.skill-list span{gap:0;border:1px solid var(--line);padding:9px 12px;font-size:12px}
+.skill-list b{display:none}
+.details{border-top:1px solid var(--line);padding:26px 0 120px}
+.details-grid{display:grid;grid-template-columns:1fr 1fr;gap:80px;margin-top:92px}
+.details-grid h3{font-size:25px;margin:0 0 5px}
+.details-grid p{color:var(--muted);font-size:14px;line-height:1.5;margin:0 0 32px}
+.details-grid .project-number{margin-bottom:24px}
+.contact-link.secondary{display:block;width:max-content;margin-top:18px}
+.footer a{color:var(--ink)}
+.footer a:hover{color:var(--coral)}
+@media(max-width:700px){.experience-row{grid-template-columns:1fr;gap:12px}.experience-row p{grid-column:auto;grid-row:auto}.details{padding-bottom:80px}.details-grid{display:block;margin-top:58px}.details-grid>div+div{margin-top:58px}.details-grid h3{font-size:22px}}

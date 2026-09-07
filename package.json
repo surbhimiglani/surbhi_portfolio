@@ -1,0 +1,19 @@
+{
+  "name": "surbhi_portfolio",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon --watch src --watch public --watch index.html --watch scripts --exec \"node scripts/build.mjs && node scripts/server.mjs\"",
+    "build": "node scripts/build.mjs",
+    "preview": "node scripts/build.mjs && node scripts/server.mjs"
+  },
+  "devDependencies": {
+    "esbuild": "latest",
+    "nodemon": "^3.1.14"
+  },
+  "dependencies": {
+    "react": "latest",
+    "react-dom": "latest"
+  }
+}
